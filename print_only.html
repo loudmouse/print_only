@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="styles.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+</head>
+<body>
+
+  <div class="wrapper">
+    <div class="twbs">
+      <div class="jumbotron">
+        <h1 class="display-3">Fine Art Prints</h1>
+        <!-- <p class="lead">with tutorials, tips, and techniques to keep learning</p> -->
+        <hr class="my-4">
+        <p>Upload a photo and we'll deliver fine art prints to your door.</p>
+        <p class="lead">
+          <form action="/create/step1/select-product" method="POST"><input name="productId" type="hidden" value="29" /><p style="text-align: center;"><button class="btn btn-primary btn-lg">Upload Photo</button></form>
+          </form>
+        </p>
+      </div>
+    </div>
+
+    <div class="twbs align-center">
+  <h4>Print Pricing</h4>
+  </div>
+
+  <div class="twbs">
+  <div class="table-responsive">
+  <table class="table table-striped table-bordered">
+  	<thead>
+  		<tr>
+  			<th scope="row">Product</th>
+  			<td>5x7</td>
+  			<td>8x10</td>
+  			<td>11x14</td>
+  			<td>14x18</td>
+  			<td>16x20</td>
+  			<td>20x24</td>
+  			<td>20x30</td>
+  			<td>24x30</td>
+  			<td>24x36</td>
+  			<td>30x40</td>
+  		</tr>
+  	</thead>
+  	<tbody>
+  		<tr>
+  			<th scope="row">Semi Matte</th>
+  			<td>$13</td>
+  			<td>$17</td>
+  			<td>$23</td>
+  			<td>$31</td>
+  			<td>$37</td>
+  			<td>$50</td>
+  			<td>$60</td>
+  			<td>$70</td>
+        <td>$82</td>
+  			<td>$110</td>
+  		</tr>
+  		<tr>
+  			<th scope="row">Metallic</th>
+  			<td>$18</td>
+  			<td>$22</td>
+  			<td>$29</td>
+  			<td>$39</td>
+  			<td>$46</td>
+  			<td>$63</td>
+  			<td>$75</td>
+  			<td>$88</td>
+        <td>$103</td>
+  			<td>$138</td>
+  		</tr>
+  	</tbody>
+  </table>
+  </div>
+  </div>
+
+<span><i class="fa fa-info-circle"></i> <i>Shipping with UPS Ground is included at no additional cost.</i></span><br>
+<span><i class="fa fa-info-circle"></i> <i>Allow up to 5 business days for production + transit time.</i></span>
+
+  <div class="twbs align-center">
+  <form action="/create/step1/select-product" method="POST"><input name="productId" type="hidden" value="29" /><p style="text-align: center;"><button class="btn btn-primary btn-lg" data-toggle="tooltip" data-placement="top" title="Tooltip on top">Upload Photo</button></form>
+  </form>
+  </div>
+  </div>
+
+
+</body>
+</html>

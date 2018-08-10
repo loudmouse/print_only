@@ -1,0 +1,26 @@
+.wrapper {
+  max-width:1200px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.jumbotron {
+  background-image: url("https://artmill.blob.core.windows.net/cms/image/83bedb9bd59842279d5eb080c0391a09/fine art printing at artmill_1.jpg");
+  border-radius: 0.5em;
+}
+
+.jumbotron h1.display-3 {
+  color: black;
+  font-size: 2.5em;
+}
+
+.jumbotron p {
+  color: black;
+}
+
+.jumbotron .lead .btn-primary {
+    color: #fff;
+    background-color: #0098cf;
+    border-color: #0098cf;
+    border-radius: 0.5em;
+}
